@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCorp | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="contained py-3">
+        <nav class="flex gap-4 flex-col md:flex-row md:justify-between items-center">
+            <div id="branding">
+                <h1 class="text-[#dd5d9f] text-3xl md:text-4xl lg:text-6xl font-medium md:font-bold">Tech<span
+                        class="text-[#6757f8]">Corp</span></h1>
+            </div>
+            <menu class="flex flex-col md:flex-row gap-2 md:gap-4">
+                <a href="#" class="text-[#6757f8] hover:text-[#6757f8]">Home</a>
+                <a href="#services" class="hover:text-[#6757f8]">Services</a>
+                <a href="#stats" class="hover:text-[#6757f8]">Statistics</a>
+                <a href="#about" class="hover:text-[#6757f8]">About</a>
+                <a href="#contact" class="hover:text-[#6757f8]">Contact</a>
+            </menu>
+            <a href="#"><button class="text-white p-1 md:p-2 rounded-xl grad">Get Quote</button></a>
+        </nav>
+    </header>
+
+    <br>
+
+    <main class="h-[60vh] py-4 bg-[#fbfcff]">
+        <div id="hero" class="contained flex overflow-hidden">
+            <div
+                class="md:w-50% flex flex-col gap-4 justify-center text-center md:text-left h-full my-auto items-center">
+                <h2 class="text-2xl md:text-4xl w-70%">Best <b>Solution Provider</b> for Your <b>Business.</b></h2>
+                <small>We support small brands and businesses to stand out in these modern days</small>
+                <button class="text-white p-3 rounded-xl grad w-fit">Get Started</button>
+            </div>
+            <div class="hidden w-50% md:flex justify-center items-center">
+                <div class="h-[100%]">
+                    <img src="./images/Hero.png" alt="" class="h-[60%] ">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <br> <br>
+
+    <section class="contained" id="services">
+        <div class="text-center">
+            <p class="text-[#ffad33]">Services</p>
+            <h3 class="text-xl md:text-3xl font-medium ">What We Do?</h3>
+            <p class="text-[#979797] w-[70%] md:w-[25%] text-sm m-auto">We support small brands and businesses to stand
+                out in these modern days</p>
+        </div>
+
+        <br>
+
+        <div class="flex flex-col md:flex-row gap-6 justify-between">
+            <div class="flex flex-col p-6 border gap-3 rounded-xl">
+                <div class="rounded-xl bg-[#6757f8] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                </div>
+
+                <p class="font-bold"> Business Planning</p>
+                <p class="text-[#979797]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut asperiores aut
+                    sunt hic commodi? Praesentium soluta amet ab maxime, nihil quaerat. Porro tenetur in earum a quis
+                    voluptatibus facere ipsam.</p>
+                <a href="#" class="font-medium">Get Started ➡️</a>
+            </div>
+
+            <div class="flex flex-col p-6 border gap-3 rounded-xl">
+                <div class="rounded-xl bg-[#dd5d9f] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                    <i class="fa-solid fa-computer"></i>
+                </div>
+
+                <p class="font-bold"> Digital Solutions</p>
+                <p class="text-[#979797]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut asperiores aut
+                    sunt hic commodi? Praesentium soluta amet ab maxime, nihil quaerat. Porro tenetur in earum a quis
+                    voluptatibus facere ipsam.</p>
+                <a href="#" class="font-medium">Get Started ➡️</a>
+            </div>
+
+            <div class="flex flex-col p-6 border gap-3 rounded-xl">
+                <div class="rounded-xl bg-[#ffad33] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
+
+                <p class="font-bold"> Technical Analysis</p>
+                <p class="text-[#979797]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut asperiores aut
+                    sunt hic commodi? Praesentium soluta amet ab maxime, nihil quaerat. Porro tenetur in earum a quis
+                    voluptatibus facere ipsam.</p>
+                <a href="#" class="font-medium">Get Started ➡️</a>
+            </div>
+
+        </div>
+    </section>
+
+    <br><br>
+
+
+    <br><br>
+
+    <section class="bg-grad" id="stats">
+        <div class="contained py-6">
+            <div class="text-center">
+                <p class="text-[#ffad33]">Statistics</p>
+                <h3 class="text-xl md:text-3xl font-medium ">Our Records</h3>
+                <p class="text-[#979797]">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+            <br>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:flex-row justify-between">
+                <div class="bg-[ffffff] p-6 border  rounded-xl flex flex-col gap-2">
+                    <div
+                        class="rounded-xl bg-[#6757f8] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <h4 class="text-2xl">1250+</h4>
+                    <small>Projects</small>
+                </div>
+
+                <div class="bg-[ffffff] p-6 border  rounded-xl flex flex-col gap-2">
+                    <div
+                        class="rounded-xl bg-[#dd5d9f] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <h4 class="text-2xl">250+</h4>
+                    <small>Happy Clients</small>
+                </div>
+                <div class="bg-[ffffff] p-6 border  rounded-xl flex flex-col gap-2">
+                    <div
+                        class="rounded-xl bg-[#ffad33] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h4 class="text-2xl">50+</h4>
+                    <small>Awards</small>
+                </div>
+                <div class="bg-[ffffff] p-6 border  rounded-xl flex flex-col gap-2">
+                    <div
+                        class="rounded-xl bg-[#9689fd] text-white p-2 flex items-center justify-center w-12 h-12 text-2xl">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h4 class="text-2xl">25+</h4>
+                    <small>Years Experience</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <section id="about">
+        <div class="contained flex flex-col-reverse lg:flex-row gap-3">
+            <div class="flex flex-col gap-3 w-full lg:w-1/2">
+                <p class="text-[#ffad33]">About Us</p>
+                <h3 class="text-xl md:text-3xl font-medium ">Who We Are?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sint necessitatibus unde. Hic tempore
+                    distinctio quidem recusandae iste. Quidem cum beatae dolores possimus facilis sed debitis quod
+                    suscipit sequi consectetur fugit voluptatem temporibus vel exercitationem, cupiditate eum eius rem
+                    perspiciatis provident sapiente quaerat sit eveniet error ullam. Est, repellat optio.</p>
+                <button class="text-white p-3 rounded-xl grad w-fit">Learn more</button>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <img src="./images/about.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <br> <br>
+
+    <section class="bg-grad py-6" id="contact">
+        <div class="contained">
+            <div class="text-center">
+                <p class="text-[#ffad33]">Get in Touch</p>
+                <h3 class="text-xl md:text-3xl font-medium ">Do You Want to Reach Us?</h3>
+            </div>
+            <br>
+            <form action="" class="flex flex-col gap-3">
+                <input type="text" name="" id="" placeholder="Name" class="p-2 border rounded-lg ">
+                <input type="email" name="" id="" placeholder="Your Email" class="p-2 border rounded-lg ">
+                <textarea name="" id="" cols="30" rows="10" class="p-2 border rounded-lg "
+                    placeholder="Your Message"> </textarea>
+                <br>
+                <button class="grad py-2 rounded-xl text-white">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="contained flex flex-col md:flex-row gap-4">
+            <div class="w-full md:w-1/3">
+                <h1 class="text-[#dd5d9f] text-3xl md:text-4xl lg:text-6xl font-medium md:font-bold">Tech<span
+                        class="text-[#6757f8]">Corp</span></h1>
+                        <br> 
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, dolorem. Eius mollitia cumque assumenda
+                    fugiat ullam natus, exercitationem aspernatur iusto!</p>
+            </div>
+            <div class="w-full md:w-1/3 text-center">
+                <h4 class="text-xl font-medium">Quick Links</h4>
+                <br>
+                <menu class="flex flex-col">
+                    <a href="#" class="text-[#6757f8] hover:text-[#6757f8]">Home</a>
+                    <a href="#services" class="hover:text-[#6757f8]">Services</a>
+                    <a href="#stats" class="hover:text-[#6757f8]">Statistics</a>
+                    <a href="#about" class="hover:text-[#6757f8]">About</a>
+                    <a href="#contact" class="hover:text-[#6757f8]">Contact</a>
+                </menu>
+            </div>
+
+            <div class="w-full md:w-1/3">
+                <h4 class="text-xl font-medium">Connect with us</h4>
+                <br>
+                <div class="flex gap-3">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                    <a><i class="fa-brands fa-linkedin"></i></a>
+                    <a><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
